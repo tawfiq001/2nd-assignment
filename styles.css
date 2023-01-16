@@ -186,19 +186,19 @@ Nav div ul li{
     font-size: 20px;
     color: #727272;
 }
-.Sponsor_Section{
+.Sponsor_Section, .Connect_With_US{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.Sponsor_Txt{
+.Sponsor_Txt, .Connect_Txt{
     text-align: center;
     margin-top: 180px;
     width: 542px;
     height: 129px;
 }
-.Sponsor_Title{
+.Sponsor_Title, .Connect_Title{
     font-weight: 700;
     font-size: 45px;
     margin-bottom: 24px;
@@ -212,6 +212,16 @@ Nav div ul li{
 }
 .Sponsor_Img_Gray{
     filter: grayscale(1);
+}
+.Connect_Txt{
+    margin-top: 50px;
+}
+.Connect_Img{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 120px;
+    margin-bottom: 130px;
 }
 .footer{
     display: flex;

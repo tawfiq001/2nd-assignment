@@ -282,3 +282,31 @@ Nav div ul li{
     background: #FFF4E7;
     border-radius: 8px;
 }
+
+/* --------------------------------------------
+Media Queries
+Responsive Part Starts only for Mobile Devices
+----------------------------------------------- */
+@media only screen and (max-width: 576px) {
+    .Company{
+        margin:0px;
+        padding-top: 20px;   
+    }
+    .Nav_Options li{
+        text-align: left;
+        /* padding: 10px; */
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
+    .Nav_Options, .Company_Name{
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 10px;
+    }
+    /* .Banner_With_Picture{
+        width: 100%;
+    }
+    /* .Banner_Title{
+        width: .1vw;
+    } */ 
+}

@@ -1,0 +1,233 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-family: 'Work Sans', sans-serif;
+}
+header{
+    background-color:rgba(255, 144, 14, 0.1);
+}
+.Nav_Options, .Company_Name{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+}
+.Company{
+    font-size: 45px;
+    font-weight: 700px;
+    margin-top: 50px;
+    margin-left: 230px;
+}
+.Nav_Options{
+    font-size: 18px;
+    font-weight: 500px;
+    margin-top: 63px;
+    margin-right: 230px;
+}
+Nav div ul li{
+    margin-left: 60px;
+}
+.Banner{
+    width: 862px;
+    height: 225px;
+    
+}
+.Banner_With_Picture{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.Banner_Title{
+    font-size: 64px;
+    font-weight: 700px;
+}
+.Banner_Des{
+    margin-top: 25px;
+    font-size: 16px;
+    font-weight: 400px;
+}
+.Orange_Primary_button{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding: 20px 25px;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    background: #FF900E;
+    border-radius: 8px;
+}
+.Banner_pic{
+    margin-bottom: 45px;
+}
+.Quick_Feature_List{
+    margin-top: 85px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    justify-content: center;
+}
+
+.Quick_Feature_Img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+    margin-left: 301px;
+    margin-right: 73px;
+}
+.Feature_Img{
+    width: 342px;
+    height: 342px;
+}
+.Quick_Feature_Text{
+    width: 537px;
+    height: 304px;
+}
+ .Quick_Feature_Title{
+    width: 468px;
+    height: 106px;
+    font-size: 45px;
+    font-weight: 500px;
+}
+.Quick_Feature_Des{
+    margin-top: 24px;
+}
+#Quick_Feature_Title_1{
+    color: #727272;
+}
+#Quick_Feature_Title_2{
+    color: #FF900E;
+}
+.Loving_Features, .Facts_List_1, .Facts_List_2, .Facts_List_3, .Facts_List_4, .Facts_List{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Loving_Features_Text_N_Pic{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-left: 240px;
+    margin-right: 240px;
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+.Loving_Features_Text{
+    margin-right: 54px;
+}
+.Loving_Features_Title{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 45px;
+}
+.Loving_Features_Points_1, .Loving_Features_Points_2, .Loving_Features_Points_3{
+    margin-top: 20px;
+    padding: 30px;
+}
+.Loving_Features_Points_Title{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.Loving_Features_Btn{
+    padding: 42px 45px;
+    color: white;
+    background: #FF900E;
+    border-radius: 8px;
+    position: relative;
+    left: 100px;
+    bottom: 500px;
+    margin: -100px;
+}
+.Loving_Features_Btn_Txt-1{
+    font-weight: 700;
+    font-size: 65px;
+}
+.Loving_Features_Btn_Txt-2{
+    font-weight: 500;
+    font-size: 25px;
+}
+.Facts_Title{
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 24px;
+    margin-left: 240px;
+}
+.Facts_Des{
+    width: 542px;
+    margin-left: 240px;
+}
+.Facts_summary{
+    display: grid;
+    margin-top: 100px;
+    justify-content: center;
+    grid-template-columns: repeat(4,12%);
+    column-gap: 125px;
+}
+.Facts_List_1, .Facts_List_2, .Facts_List_3, .Facts_List_4{
+    border: #FF900E solid 1px;
+    border-radius: 8px;
+    width: 242px;
+    height: 242px;
+}
+.Facts_summary ul li{
+    list-style: none;
+}
+.Facts_List_Number{
+    font-weight: 600;
+    font-size: 45px;
+}
+.Facts_List_TXT{
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+}
+.Sponsor_Section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Sponsor_Txt{
+    text-align: center;
+    margin-top: 180px;
+    width: 542px;
+    height: 129px;
+}
+.Sponsor_Title{
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 24px;
+}
+.Sponsor_Img{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    column-gap: 120px;
+    margin-bottom: 130px;
+}
+.Sponsor_Img_Gray{
+    filter: grayscale(1);
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 216px;
+}
+.G3_Footer{
+    width: 1440px;
+    height: 100px;
+}
+.G3_Footer_txt{
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    padding: 38px 410px;
+    background: #FFF4E7;
+    border-radius: 8px;
+}

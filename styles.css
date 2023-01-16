@@ -140,8 +140,10 @@ Nav div ul li{
     margin-bottom: 30px;
     font-weight: 700;
     font-size: 45px;
+    border-left:#FF900E 5px solid;
+    padding-left: 20px;
 }
-.Loving_Features_Points_1, .Loving_Features_Points_2, .Loving_Features_Points_3{
+.Loving_Features_Points_1, .Loving_Features_Points_2, .Loving_Features_Points_3, .Loving_Features_Points_4{
     margin-top: 20px;
     padding: 30px;
 }

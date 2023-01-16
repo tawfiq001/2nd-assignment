@@ -1,9 +1,14 @@
+/* Universally Defined */
+
 *{
     margin: 0px;
     padding: 0px;
     border: 0px;
     font-family: 'Work Sans', sans-serif;
 }
+
+/* Navigation Section */
+
 header{
     background-color:rgba(255, 144, 14, 0.1);
 }
@@ -28,6 +33,9 @@ header{
 Nav div ul li{
     margin-left: 60px;
 }
+
+/* Banner Section */
+
 .Banner{
     width: 862px;
     height: 225px;
@@ -50,6 +58,9 @@ Nav div ul li{
     font-size: 16px;
     font-weight: 400px;
 }
+
+/* Primary Button Design for the webpage */
+
 .Orange_Primary_button{
     margin-top: 30px;
     margin-bottom: 50px;
@@ -63,6 +74,9 @@ Nav div ul li{
 .Banner_pic{
     margin-bottom: 45px;
 }
+
+/* Quick Feature List Section */
+
 .Quick_Feature_List{
     margin-top: 85px;
     display: grid;
@@ -101,6 +115,9 @@ Nav div ul li{
 #Quick_Feature_Title_2{
     color: #FF900E;
 }
+
+/* Loving feature Section */
+
 .Loving_Features, .Facts_List_1, .Facts_List_2, .Facts_List_3, .Facts_List_4, .Facts_List{
     display: flex;
     flex-direction: column;
@@ -133,6 +150,9 @@ Nav div ul li{
     font-size: 20px;
     margin-bottom: 10px;
 }
+
+/* Loving Features Button Elevated */
+
 .Loving_Features_Btn{
     padding: 42px 45px;
     color: white;
@@ -151,6 +171,9 @@ Nav div ul li{
     font-weight: 500;
     font-size: 25px;
 }
+
+/* Facts Section */
+
 .Facts_Title{
     font-weight: 700;
     font-size: 45px;
@@ -174,6 +197,12 @@ Nav div ul li{
     width: 242px;
     height: 242px;
 }
+
+/* Facts Hover Section */
+
+.Facts_List_1:hover, .Facts_List_2:hover, .Facts_List_3:hover, .Facts_List_4:hover{
+    background-color: #ff8f0e88;
+}
 .Facts_summary ul li{
     list-style: none;
 }
@@ -186,6 +215,9 @@ Nav div ul li{
     font-size: 20px;
     color: #727272;
 }
+
+/* Sponsor Section */
+
 .Sponsor_Section, .Connect_With_US{
     display: flex;
     flex-direction: column;
@@ -210,9 +242,15 @@ Nav div ul li{
     column-gap: 120px;
     margin-bottom: 130px;
 }
+
+/* Sponsors image Grayscale */
+
 .Sponsor_Img_Gray{
     filter: grayscale(1);
 }
+
+/* Extra Section :: Social */
+
 .Connect_Txt{
     margin-top: 50px;
 }
@@ -223,6 +261,9 @@ Nav div ul li{
     column-gap: 120px;
     margin-bottom: 130px;
 }
+
+/* Footer Section */
+
 .footer{
     display: flex;
     align-items: center;
